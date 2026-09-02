@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-41bdf5?style=flat-square&logo=homeassistant)](https://www.home-assistant.io/)
 
-Fork of [loebi-ch/nanoleaf](https://github.com/loebi-ch/nanoleaf). Pins a patched `aionanoleaf2` that tolerates Essentials devices whose root info payload has no `state`, and that accept object-shaped `effectsList` / `select` responses (NL77K1). Use upstream again once that fix is on PyPI.
+Fork of [loebi-ch/nanoleaf](https://github.com/loebi-ch/nanoleaf). Pins a patched `aionanoleaf2` for Essentials devices that omit `state` from the root info payload, and for object-shaped `effectsList` / `select` responses (NL77K1). Switch back to upstream once that fix is on PyPI.
 
 **Nanoleaf** is an enhanced Home Assistant custom integration for Nanoleaf devices. It serves as a modern successor to the built-in core integration, adding support for the new **Nanoleaf Essentials** line and **4D Screen Mirroring** capabilities.
 
