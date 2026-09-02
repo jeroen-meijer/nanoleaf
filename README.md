@@ -1,9 +1,10 @@
 # Nanoleaf
 
-[![GitHub Release](https://img.shields.io/github/v/release/loebi-ch/nanoleaf?style=flat-square)](https://github.com/loebi-ch/nanoleaf/releases)
 [![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://hacs.xyz/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-41bdf5?style=flat-square&logo=homeassistant)](https://www.home-assistant.io/)
+
+Temporary fork of [loebi-ch/nanoleaf](https://github.com/loebi-ch/nanoleaf) that pins a fixed `aionanoleaf2` (root info payload without `state`, plus object-wrapped effects responses on NL77K1). Switch back to upstream once that library fix is released on PyPI.
 
 **Nanoleaf** is an enhanced Home Assistant custom integration for Nanoleaf devices. It serves as a modern successor to the built-in core integration, adding support for the new **Nanoleaf Essentials** line and **4D Screen Mirroring** capabilities.
 
