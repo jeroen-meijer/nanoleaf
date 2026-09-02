@@ -11,7 +11,7 @@
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/loebi-ch/nanoleaf/issues",
   "loggers": ["aionanoleaf2"],
-  "requirements": ["aionanoleaf2@git+https://github.com/jeroen-meijer/aionanoleaf2.git@31c525a13921da2fcc11af535e4bf75ddbc3a81d"],
+  "requirements": ["aionanoleaf2@git+https://github.com/jeroen-meijer/aionanoleaf2.git@c7739c06edbb155e5e2217491b5ce868800fd724"],
   "ssdp": [
     {
       "st": "Nanoleaf_aurora:light"
